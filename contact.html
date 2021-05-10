@@ -34,6 +34,7 @@
     if (frm.FromEmailAddress.value == "") { alert('Email address is required.'); frm.FromEmailAddress.focus(); return false; }
     if (frm.FromEmailAddress.value.indexOf("@") < 1 || frm.FromEmailAddress.value.indexOf(".") < 1) { alert('Please enter a valid email address.'); frm.FromEmailAddress.focus(); return false; }
     if (frm.Comments.value == "") { alert('Please enter comments or questions.'); frm.Comments.focus(); return false; }
+    alert('Thank you for filling out the form. our team will cantact you in few days.')
     return true; }
     </script>
     <table style="width:100%;max-width:550px;border:0;" cellpadding="8" cellspacing="0">
